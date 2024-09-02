@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    font-family: 'Public sans', sans-serif;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.logo h1 {
+    font-size: 20px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #000;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.menu .item a {
+    color: #000;
+}
+
+.menu .item, .menu .cadastro a{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.cadastro a {
+    color: #fff;
+    background-color: #5bc241;
+    border: 14px solid #5bc241;
+    border-radius: 15px;
+}
+
+.menu .item a:hover {
+    background-color: #5bc241;
+    text-align: center;
+    border: 14px solid #5bc241;
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .logo {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .logo h1 {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .menu li {
+        margin: 30px;
+    }
+}
